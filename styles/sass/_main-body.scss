@@ -1,0 +1,114 @@
+// UNDER THE SEA
+.under-sea {
+    background-color: $primary-color;
+    min-height: 600px;
+
+    h3 {
+        padding-top: 15%;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto 10% auto;
+    }
+}
+
+h2 + p,
+h3 + p {
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+button {
+    padding: 12px 25px;
+}
+
+.find-more {
+    color: $primary-color;
+    background-color: $primary-accent;
+    border: 3px solid $primary-accent;
+    transition: all 0.5s;
+}
+
+.find-more:hover,
+.find-more:focus {
+    box-shadow: 10px 10px $secondary-color;
+}
+
+.read-more {
+    background-color: $primary-color;
+    border: 3px solid $primary-color;
+    transition: all 0.5s;
+}
+
+// =========================== //
+// == DAT GREEN SECTION DOE == //
+// =========================== //
+.additions-right,
+.nemo-left {
+    width: 45%;
+    // !!!!NEED TO CALCULATE SOME MORE TO MAKE SURE 45% IS LINED UP WITH THE WRAPPER
+}
+
+h4 {
+    padding-top: 12%;
+}
+
+
+// NEW ADDITIONS
+.additions {
+    // border: solid 1px white;
+
+    background-color: $secondary-color;
+    position: relative;
+    min-height: 425px;
+
+    // IMAGE
+    .additions-left {
+        width: 45%;
+        position: absolute;
+        top: -40px;
+        left: 0;
+        box-shadow: 40px 40px $primary-accent;
+    }
+
+
+    // BLURB
+    .additions-right {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .read-more:hover,
+    .read-more:focus {
+        box-shadow: 10px 10px $primary-accent;
+    }
+}
+
+// FINDING NEMO
+.nemo {
+    background-color: $secondary-color;
+    min-height: 400px;
+    position: relative;
+    text-align: right;
+
+    // BLURB
+    .nemo-right {
+        width: 45%;
+        position: absolute;
+        bottom: -40px;
+        right: 0;
+        box-shadow: -40px 40px $primary-accent;
+    }
+
+    // IMAGE
+    .nemo-left {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .read-more:hover,
+    .read-more:focus {
+        box-shadow: -10px 10px $primary-accent;
+    }
+}
