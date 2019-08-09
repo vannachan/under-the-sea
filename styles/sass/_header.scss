@@ -1,0 +1,58 @@
+// GENERAL NAVIGATION
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+        padding: 15px 0;
+        margin-left: 50px;
+    }
+    
+    a {
+        transition: color 0.3s;
+    }
+
+    li:hover a,
+    li:focus a {
+        color: $primary-accent;
+    }
+}
+
+// MAIN PAGE HEADER
+.main-header {
+    height: 95vh;
+    max-height: 1000px;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.4)),
+        url(../assets/header-image.jpg);
+    background-size: cover;
+    position: relative;
+
+    h1 {
+        width: 40%;
+    }
+
+    .main-fishies {
+        width: 50%;
+        position: absolute;
+        right: 0;
+        bottom: -40px;
+    }
+}
+
+// BLOG PAGE HEADER
+.blog-header {
+    height: 70vh;
+    max-height: 800px;
+    background-image: url(../assets/blog-header.jpg);
+    background-size: cover;
+
+}
+
+// CONTACT PAGE HEADER
+.contact-header {
+    height: 70vh;
+    max-height: 800px;
+    background-image: url(../assets/contact-header.jpg);
+    background-size: cover;
+}
