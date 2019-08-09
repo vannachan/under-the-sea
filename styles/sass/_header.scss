@@ -36,23 +36,28 @@ nav ul {
         width: 50%;
         position: absolute;
         right: 0;
-        bottom: -40px;
+        bottom: -80px;
     }
 }
 
-// BLOG PAGE HEADER
-.blog-header {
-    height: 70vh;
-    max-height: 800px;
-    background-image: url(../assets/blog-header.jpg);
-    background-size: cover;
-
-}
-
-// CONTACT PAGE HEADER
+// BLOG & CONTACT PAGE HEADERS
+.blog-header,
 .contact-header {
     height: 70vh;
-    max-height: 800px;
-    background-image: url(../assets/contact-header.jpg);
+    min-height: 500px;
     background-size: cover;
+
+    h2 {
+        width: 70%;
+        margin-top: 12%;
+        margin-left: 30%;
+    }
+}
+
+.blog-header {
+    background-image: url(../assets/blog-header.jpg);
+}
+
+.contact-header {
+    background-image: url(../assets/contact-header.jpg);
 }
