@@ -1,0 +1,71 @@
+html {
+    font-size: 62.5%; /* scaling down to 10px */
+}
+
+body {
+    font-family: $secondary-font;
+    font-weight: 400;
+    font-size: 2rem; /* setting default size to 16px */
+    line-height: 3.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+nav a,
+button,
+input[type="submit"] {
+    color: $primary-text;
+    font-family: $base-font;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 13.8rem;
+    line-height: 12.6rem;
+}
+
+h2 {
+    font-size: 8rem;
+    line-height: 9.2rem;
+}
+
+h3 {
+    font-size: 4.2rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 3.2rem;
+}
+
+nav a,
+h5 {
+    font-size: 2rem;
+    line-height: 2.9rem;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+}
+
+p {
+    color: $primary-text;
+}
+
+h3,
+h4,
+nav a,
+button,
+input[type="submit"] {
+    letter-spacing: 1px;
+}
+
+.find-more,
+footer p {
+    color: $primary-color;
+}

@@ -1,6 +1,9 @@
 @import 'setup';
+@import 'utils';
+@import 'typography';
+@import 'typography';
 @import 'header';
-@import '_main-body.scss';
-@import '_blog-body.scss';
-@import '_contact-body.scss';
+@import 'main-body';
+@import 'blog-body';
+@import 'contact-body';
 @import 'footer'
