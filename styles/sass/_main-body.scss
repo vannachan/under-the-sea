@@ -170,3 +170,44 @@ h4 {
     // background-attachment: fixed;
     // background-repeat: no-repeat;
 }
+
+// ===================== //
+// == PROFILE SECTION == //
+// ===================== //
+.profile {
+    background-color: $primary-color;
+    min-height: 400px;
+
+    h4 {
+        padding-top: 0;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0;
+    }
+
+    .profile-left {
+        width: 27%;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+        box-shadow: 40px 40px $primary-accent;
+    }
+
+    .profile-right {
+        width: 63%;
+    }
+
+    // h3 {
+    //     padding-top: 15%;
+    // }
+
+    // button {
+    //     display: block;
+    //     margin: 0 auto 10% auto;
+    // }
+}

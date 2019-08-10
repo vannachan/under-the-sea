@@ -636,3 +636,37 @@ h4 {
   background-image: url(../assets/banner.jpg);
   background-size: cover;
 }
+
+.profile {
+  background-color: #0c1423;
+  min-height: 400px;
+}
+
+.profile h4 {
+  padding-top: 0;
+}
+
+.profile .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 0;
+}
+
+.profile .profile-left {
+  width: 27%;
+}
+
+.profile img {
+  width: 100%;
+  display: block;
+  -webkit-box-shadow: 40px 40px #86e0f9;
+          box-shadow: 40px 40px #86e0f9;
+}
+
+.profile .profile-right {
+  width: 63%;
+}
