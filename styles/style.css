@@ -507,8 +507,8 @@ button {
 
 .find-more:hover,
 .find-more:focus {
-  -webkit-box-shadow: 10px 10px #0f614e;
-          box-shadow: 10px 10px #0f614e;
+  -webkit-box-shadow: 15px 15px #0f614e;
+          box-shadow: 15px 15px #0f614e;
 }
 
 .read-more {
@@ -549,8 +549,8 @@ h4 {
 
 .additions .read-more:hover,
 .additions .read-more:focus {
-  -webkit-box-shadow: 10px 10px #86e0f9;
-          box-shadow: 10px 10px #86e0f9;
+  -webkit-box-shadow: 15px 15px #86e0f9;
+          box-shadow: 15px 15px #86e0f9;
 }
 
 .nemo {
@@ -576,8 +576,8 @@ h4 {
 
 .nemo .read-more:hover,
 .nemo .read-more:focus {
-  -webkit-box-shadow: -10px 10px #86e0f9;
-          box-shadow: -10px 10px #86e0f9;
+  -webkit-box-shadow: -15px 15px #86e0f9;
+          box-shadow: -15px 15px #86e0f9;
 }
 
 .info {
@@ -690,11 +690,19 @@ h4 {
 
 .gallery li {
   width: 32%;
+  overflow: hidden;
+}
+
+.gallery li:hover img,
+.gallery li:focus img {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
 }
 
 .gallery img {
-  width: 100%;
-  display: block;
+  max-width: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 footer {

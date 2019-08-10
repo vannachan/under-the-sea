@@ -34,7 +34,7 @@ button {
 
 .find-more:hover,
 .find-more:focus {
-    box-shadow: 10px 10px $secondary-color;
+    box-shadow: 15px 15px $secondary-color;
 }
 
 .read-more {
@@ -82,7 +82,7 @@ h4 {
 
     .read-more:hover,
     .read-more:focus {
-        box-shadow: 10px 10px $primary-accent;
+        box-shadow: 15px 15px $primary-accent;
     }
 }
 
@@ -111,7 +111,7 @@ h4 {
 
     .read-more:hover,
     .read-more:focus {
-        box-shadow: -10px 10px $primary-accent;
+        box-shadow: -15px 15px $primary-accent;
     }
 }
 
@@ -212,6 +212,7 @@ h4 {
     .wrapper {
         padding: 100px 0;
     }
+
     ul {
         display: flex;
         justify-content: space-between;
@@ -219,10 +220,16 @@ h4 {
 
     li {
         width: 32%;
+        overflow: hidden;
+    }
+
+    li:hover img,
+    li:focus img {
+        transform: scale(1.08);
     }
 
     img {
-        width: 100%;
-        display: block;
+        max-width: 100%;
+        transition: all 0.3s;
     }
 }
