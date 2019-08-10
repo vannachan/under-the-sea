@@ -1,4 +1,6 @@
-// UNDER THE SEA
+// ================= //
+// == UNDA DA SEA == //
+// ================= //
 .under-sea {
     background-color: $primary-color;
     min-height: 600px;
@@ -72,7 +74,6 @@ h4 {
         box-shadow: 40px 40px $primary-accent;
     }
 
-
     // BLURB
     .additions-right {
         margin-right: 0;
@@ -84,6 +85,7 @@ h4 {
         box-shadow: 10px 10px $primary-accent;
     }
 }
+
 
 // FINDING NEMO
 .nemo {
@@ -111,4 +113,60 @@ h4 {
     .read-more:focus {
         box-shadow: -10px 10px $primary-accent;
     }
+}
+
+// ================== //
+// == INFO SECTION == //
+// ================== //
+.info {
+    background-color: $primary-color;
+    min-height: 500px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+
+    h4 {
+        padding-top: 0;
+    }
+    
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 0 47%;
+        justify-content: space-between;
+    }
+    
+    li {
+        width: 47%;
+        display: flex;
+    }
+
+    i {
+        width: 65px;
+        height: 65px;
+        font-size: 3rem;
+        text-align: center;
+        background-color: $primary-accent;
+        padding: 15px;
+        border-radius: 50%;
+    }
+    
+    .info-blurb {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    p {
+        padding-bottom: 30px;
+    }
+}
+
+// ====================== //
+// == 'WHALEP' SECTION == //
+// ====================== //
+.whale {
+    height: 60vh;
+    background-image: url(../assets/banner.jpg);
+    background-size: cover;
+    // background-attachment: fixed;
+    // background-repeat: no-repeat;
 }

@@ -245,8 +245,8 @@ li {
 }
 
 .wrapper {
-  width: 85%;
-  max-width: 1000px;
+  width: 90%;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -578,4 +578,61 @@ h4 {
 .nemo .read-more:focus {
   -webkit-box-shadow: -10px 10px #86e0f9;
           box-shadow: -10px 10px #86e0f9;
+}
+
+.info {
+  background-color: #0c1423;
+  min-height: 500px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.info h4 {
+  padding-top: 0;
+}
+
+.info ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 47%;
+          flex: 1 0 47%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info li {
+  width: 47%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info i {
+  width: 65px;
+  height: 65px;
+  font-size: 3rem;
+  text-align: center;
+  background-color: #86e0f9;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.info .info-blurb {
+  margin-left: 5%;
+  width: 90%;
+}
+
+.info p {
+  padding-bottom: 30px;
+}
+
+.whale {
+  height: 60vh;
+  background-image: url(../assets/banner.jpg);
+  background-size: cover;
 }
