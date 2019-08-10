@@ -705,6 +705,81 @@ h4 {
   transition: all 0.3s;
 }
 
+.main-blog {
+  background-color: #0c1423;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+aside {
+  width: 25%;
+  height: 850px;
+  background-color: #0f614e;
+  margin-top: 100px;
+  padding: 23% 3% 5% 3%;
+  position: relative;
+}
+
+aside img {
+  width: 30vw;
+  position: absolute;
+  top: -15px;
+  right: 15px;
+}
+
+aside h5 {
+  margin-top: 50px;
+}
+
+aside ul {
+  padding-top: 20px;
+}
+
+aside li {
+  color: #fff;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+aside a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+aside li:hover a,
+aside li:focus a {
+  text-shadow: 3px 3px 3px #86e0f9;
+}
+
+.blog-left {
+  width: 67%;
+  margin-left: 3%;
+  text-align: left;
+}
+
+.blog-left .blog-post {
+  border: 3px solid #86e0f9;
+  border-right: none;
+  padding: 25% 3% 3% 3%;
+  position: relative;
+}
+
+.blog-left .blog-image {
+  width: 60vw;
+  position: absolute;
+  top: -190px;
+  left: 37px;
+  -webkit-box-shadow: -40px 40px #86e0f9;
+          box-shadow: -40px 40px #86e0f9;
+}
+
 footer {
   background-color: #86e0f9;
 }
