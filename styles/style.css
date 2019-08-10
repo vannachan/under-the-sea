@@ -259,6 +259,10 @@ h3, h4, h5 {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 html {
   font-size: 62.5%;
   /* scaling down to 10px */
@@ -715,20 +719,28 @@ h4 {
           justify-content: flex-end;
 }
 
-aside {
-  width: 25%;
-  height: 850px;
-  background-color: #0f614e;
-  margin-top: 100px;
-  padding: 23% 3% 5% 3%;
+.blog-left {
+  width: 30%;
   position: relative;
 }
 
-aside img {
-  width: 30vw;
+.blog-left .aside-image-container {
+  width: calc(100% - 40px);
   position: absolute;
-  top: -15px;
-  right: 15px;
+  top: 100px;
+  left: 0;
+}
+
+.blog-left img {
+  max-width: 100%;
+}
+
+aside {
+  background-color: #0f614e;
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 140px;
+  padding: 65% 7% 10% 7%;
 }
 
 aside h5 {
@@ -758,26 +770,31 @@ aside li:focus a {
   text-shadow: 3px 3px 3px #86e0f9;
 }
 
-.blog-left {
-  width: 67%;
-  margin-left: 3%;
+.blog-right {
+  width: 70%;
   text-align: left;
-}
-
-.blog-left .blog-post {
-  border: 3px solid #86e0f9;
-  border-right: none;
-  padding: 25% 3% 3% 3%;
   position: relative;
 }
 
-.blog-left .blog-image {
-  width: 60vw;
+.blog-right .blog-image-container {
+  width: calc(95% - 40px);
   position: absolute;
   top: -190px;
-  left: 37px;
+  right: 0;
   -webkit-box-shadow: -40px 40px #86e0f9;
           box-shadow: -40px 40px #86e0f9;
+}
+
+.blog-right .blog-image-container img {
+  width: 100%;
+}
+
+.blog-right .blog-post {
+  border: 3px solid #86e0f9;
+  width: 85%;
+  border-right: none;
+  margin: 0 5% 10%;
+  padding-left: calc(5% - 3px);
 }
 
 footer {
