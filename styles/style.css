@@ -657,7 +657,7 @@ h4 {
 }
 
 .profile .profile-left {
-  width: 27%;
+  width: 25%;
 }
 
 .profile img {
@@ -668,5 +668,41 @@ h4 {
 }
 
 .profile .profile-right {
-  width: 63%;
+  width: 65%;
+}
+
+.gallery {
+  background-color: #0f614e;
+}
+
+.gallery .wrapper {
+  padding: 100px 0;
+}
+
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gallery li {
+  width: 32%;
+}
+
+.gallery img {
+  width: 100%;
+  display: block;
+}
+
+footer {
+  background-color: #86e0f9;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+  padding: 5px;
 }

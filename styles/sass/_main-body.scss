@@ -189,7 +189,7 @@ h4 {
     }
 
     .profile-left {
-        width: 27%;
+        width: 25%;
     }
 
     img {
@@ -199,15 +199,30 @@ h4 {
     }
 
     .profile-right {
-        width: 63%;
+        width: 65%;
+    }
+}
+
+// ===================== //
+// == GALLERY SECTION == //
+// ===================== //
+.gallery {
+    background-color: $secondary-color;
+
+    .wrapper {
+        padding: 100px 0;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
     }
 
-    // h3 {
-    //     padding-top: 15%;
-    // }
+    li {
+        width: 32%;
+    }
 
-    // button {
-    //     display: block;
-    //     margin: 0 auto 10% auto;
-    // }
+    img {
+        width: 100%;
+        display: block;
+    }
 }
