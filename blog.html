@@ -90,17 +90,21 @@
                 </ul>
             </section><!-- ./comment end -->
     
-            <form action="#" method="#" class="comment-box" name="comment-box">
-                <label for="your-name" class="visually-hidden">Please enter your name.</label>
-                <input type="text" id="your-name" placeholder="Name">
-                
-                <label for="your-email" class="visually-hidden">Please enter your email.</label>
-                <input type="email" id="your-email" placeholder="Email address">
+            <form action="#" method="#" class="comment-form" name="comment-form">
+                <fieldset class="name-email">
+                    <label for="your-name" class="visually-hidden">Please enter your name.</label>
+                    <input type="text" id="your-name" class="your-name" placeholder="Name">
+                    
+                    <label for="your-email" class="visually-hidden">Please enter your email.</label>
+                    <input type="email" id="your-email" class="your-email" placeholder="Email address">
+                </fieldset>
     
-                <span class="sr-only visually-hidden">Please enter your comment.</span>
-                <textarea name="your-comment"></textarea>
+                <fieldset>
+                    <span class="sr-only visually-hidden">Please enter your comment.</span>
+                    <textarea name="your-comment" placeholder="Comment"></textarea>
+                </fieldset>
     
-                <input type="submit" value="post comment">
+                <input type="submit" value="post comment" class="post-comment">
             </form>
         </div><!-- ./blog-right end -->
     </main>
