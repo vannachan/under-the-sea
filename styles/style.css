@@ -245,8 +245,8 @@ li {
 }
 
 .wrapper {
-  width: 90%;
-  max-width: 1100px;
+  width: 85%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -261,6 +261,7 @@ h3, h4, h5 {
 
 img {
   display: block;
+  width: 100%;
 }
 
 html {
@@ -741,10 +742,6 @@ h4 {
   left: 0;
 }
 
-.blog-left img {
-  width: 100%;
-}
-
 aside {
   background-color: #0f614e;
   width: 80%;
@@ -796,10 +793,6 @@ aside li:focus a {
           box-shadow: -40px 40px #86e0f9;
 }
 
-.blog-right .blog-image-container img {
-  width: 100%;
-}
-
 .blog-right .blog-post {
   border: 3px solid #86e0f9;
   width: 90%;
@@ -819,6 +812,40 @@ aside li:focus a {
 
 .blog-right h3 + p {
   margin-top: 2%;
+}
+
+.comment {
+  margin: 5% 10% 0 5%;
+}
+
+.comment h3 {
+  margin-bottom: 7%;
+}
+
+.comment-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 10%;
+}
+
+.comment-item .comment-image-container {
+  width: 11%;
+}
+
+.comment-item .comment-blurb {
+  width: 85%;
+}
+
+.comment-item .comment-date {
+  margin-top: 0;
+}
+
+.comment-item p:last-of-type {
+  margin-bottom: 0;
 }
 
 footer {
