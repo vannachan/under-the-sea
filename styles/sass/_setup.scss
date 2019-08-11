@@ -19,12 +19,13 @@ li {
 
 .wrapper {
     width: 85%;
-    max-width: 1400px;
+    max-width: calc(1920px * .85);
     margin: 0 auto;
 }
 
 .tiny-wrapper {
     width: 70%;
+    max-width: calc(1920px * .7);
     margin: 0 auto;
 }
 

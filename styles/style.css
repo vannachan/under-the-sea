@@ -246,12 +246,13 @@ li {
 
 .wrapper {
   width: 85%;
-  max-width: 1400px;
+  max-width: calc(1920px * .85);
   margin: 0 auto;
 }
 
 .tiny-wrapper {
   width: 70%;
+  max-width: calc(1920px * .7);
   margin: 0 auto;
 }
 
@@ -467,13 +468,15 @@ nav ul li:focus a {
 
 .main-header h1 {
   width: 40%;
+  max-width: 530px;
 }
 
 .main-header .main-fishies {
-  width: 50%;
+  width: 55%;
+  max-width: 1200px;
   position: absolute;
   right: 0;
-  bottom: -80px;
+  bottom: -25%;
 }
 
 .blog-header,
@@ -511,16 +514,20 @@ nav ul li:focus a {
 }
 
 .under-sea h3 {
-  padding-top: 15%;
+  padding-top: 22%;
 }
 
 .under-sea button {
   display: block;
-  margin: 0 auto 10% auto;
+  margin: 0 auto;
 }
 
-h2 + p,
-h3 + p {
+.tiny-wrapper {
+  padding-bottom: 10%;
+}
+
+h3 + p,
+h4 + p {
   margin-top: 5%;
   margin-bottom: 7%;
 }
@@ -567,9 +574,10 @@ h4 {
 
 .additions .additions-left {
   width: 45%;
+  max-width: 700px;
   position: absolute;
   top: -40px;
-  left: 0;
+  right: 55%;
   -webkit-box-shadow: 40px 40px #86e0f9;
           box-shadow: 40px 40px #86e0f9;
 }
@@ -594,9 +602,10 @@ h4 {
 
 .nemo .nemo-right {
   width: 45%;
+  max-width: 700px;
   position: absolute;
   bottom: -40px;
-  right: 0;
+  left: 55%;
   -webkit-box-shadow: -40px 40px #86e0f9;
           box-shadow: -40px 40px #86e0f9;
 }
@@ -985,6 +994,7 @@ aside li:focus a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-width: 1920px;
 }
 
 .contact-info {

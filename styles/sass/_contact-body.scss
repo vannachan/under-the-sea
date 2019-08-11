@@ -1,8 +1,9 @@
 .contact-body {
     background-color: $primary-color;
-
+    
     main {
         display: flex;
+        max-width: 1920px;
     }
 }
 

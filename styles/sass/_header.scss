@@ -30,13 +30,15 @@ nav ul {
 
     h1 {
         width: 40%;
+        max-width: 530px;
     }
 
     .main-fishies {
-        width: 50%;
+        width: 55%;
+        max-width: 1200px;
         position: absolute;
         right: 0;
-        bottom: -80px;
+        bottom: -25%;
     }
 }
 
