@@ -8,30 +8,84 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Barlow:700|Lato&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
     <!-- External Styles Sheet -->
     <link rel="stylesheet" href="./styles/style.css">
     
     <title>Under The Sea - Vanna Chan</title>
 </head>
-<body>
+<body class="contact-body">
     <header class="contact-header">
         <div class="wrapper">
             <nav>
                 <ul>
                     <!-- see if I want to keep in the capitalize right now -->
                     <li><a href="./index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="./index.html#under-sea">About</a></li>
                     <li><a href="./blog.html">Blog</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
-    
-            <h2>Get in touch</h2>
         </div>
+    
+        <h2>Get in touch</h2>
     </header>
 
     <main>
+        <section class="contact-info">
+            <!-- SOCIAL ICONS SIDE PANE -->
+            <ul class="social-icons">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" aria-label="Go to our page on Facebook!">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Go to our page on Instagram!">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/" target="_blank" aria-label="Go to our page on Twitter!">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whtatsapp.com/" target="_blank" aria-label="Message us on Whatsapp!">
+                        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul><!-- end of ./social-icons -->
 
+            <h4>info@email.com</h4>
+            <p>123 0 456 0 7890</p>
+            <p>123 Queen Street West, Unit 10</p>
+            <p>Toronto, Ontario</p>
+            <p>M5V2D5</p>
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="contact-form">
+            <form action="#" method="#" class="contact-input-form" name="contact-input-form">
+                <fieldset class="name-email">
+                    <label for="contact-name" class="visually-hidden">Please enter your name.</label>
+                    <input type="text" id="contact-name" class="contact-name" placeholder="Name">
+                    
+                    <label for="contact-email" class="visually-hidden">Please enter your email.</label>
+                    <input type="email" id="contact-email" class="contact-email" placeholder="Email address">
+                </fieldset><!-- ./name-email end -->
+    
+                <fieldset>
+                    <span class="sr-only visually-hidden">Please enter your message.</span>
+                    <textarea name="contact-message" class="contact-message" placeholder="Message"></textarea>
+                </fieldset>
+    
+                <input type="submit" value="submit" class="contact-submit">
+            </form>
+        </section><!-- ./contact-form end -->
 
     </main>
     

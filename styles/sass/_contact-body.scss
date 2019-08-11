@@ -1,0 +1,70 @@
+.contact-body {
+    background-color: $primary-color;
+
+    main {
+        display: flex;
+    }
+}
+
+// ================== //
+// == INFO SECTION == //
+// ================== //
+.contact-info {
+    width: 30%;
+    padding-top: 8%;
+    padding-left: 8%;
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        padding: 0;
+        margin-right: 25px;
+    }
+    
+    a {
+        color: $primary-text;
+    }
+    
+    i {
+        transition: all 0.3s;
+    }
+
+    li:hover i,
+    li:focus i {
+        text-shadow: 3px 3px $primary-accent;
+    }
+
+    h4 {
+        padding-top: 0;
+        margin: 6% 0;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+// ================== //
+// == FORM SECTION == //
+// ================== //
+.contact-form {
+    width: 65%;
+    margin-left: 5%;
+    position: relative;
+    padding-bottom: 600px;
+}
+
+.contact-input-form {
+    position: absolute;
+    width: 85%;
+    box-shadow: -40px 40px $primary-accent;
+    top: -26%;
+    left: 40px;
+}
+
+
+
+
+

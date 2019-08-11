@@ -1,0 +1,97 @@
+// ========================== //
+// == BLOG & CONTACT FORMS == //
+// ========================== //
+.comment-form, 
+.contact-input-form,
+.name-email {
+    display: flex;
+}
+
+.contact-input-form {
+    padding: 50px;
+}
+
+.comment-form,
+.contact-input-form {
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+.name-email {
+    width: 100%;
+    justify-content: space-between;
+    
+    input[type=email],
+    input[type=text] {
+        width: 47%;
+        height: 60px;
+        padding: 10px 25px;
+        border: none;
+        border-bottom: 3px solid $primary-accent;
+    }
+    
+    .blog-email,
+    .blog-name {
+        background-color: $primary-color;
+    }
+}
+
+textarea {
+    margin: 5% 0;
+    padding: 25px;
+    width: 100%;
+    height: 300px;
+    resize: none;
+    background-color: $primary-color;
+    border: 3px solid $primary-accent;
+}
+
+.contact-input-form,
+.contact-email,
+.contact-name,
+.contact-message {
+    background-color: $secondary-color;
+}
+
+input[type=email],
+input[type=text],
+textarea,
+input[type=submit] {
+    transition: all 0.5s;
+}
+
+input[type=email]:focus,
+input[type=text]:focus,
+textarea:focus {
+    border: 3px solid $primary-accent;
+    box-shadow: 15px 15px $primary-accent;
+}
+
+.post-comment {
+    background-color: $secondary-color;
+    border: none;
+    padding: 20px;
+}
+
+.post-comment:hover,
+.post-comment:focus {
+    background-color: darken($secondary-color, 10);
+    box-shadow: 15px 15px $primary-accent;
+}
+
+.contact-submit {
+    background-color: $primary-color;
+    border: none;
+    padding: 20px;
+}
+
+.contact-submit:hover,
+.contact-submit:focus {
+    background-color: darken($primary-color, 2);
+    box-shadow: 15px 15px $primary-accent;
+}
