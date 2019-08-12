@@ -1,0 +1,119 @@
+@media (max-width: 1065px) {
+
+    .main-blog {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+
+    .blog-header {
+        h2 {
+            margin-left: calc(10% + 40px);
+        }
+    }
+
+    .blog-left,
+    .blog-right {
+        width: 80%;
+        margin: 0 10%;
+        .aside-image-container {
+            width: 80%;
+            top: -20px;
+            left: calc(10% + 20px);
+        }   
+
+        .blog-post {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+
+    .blog-left {
+        padding-bottom: 10%;
+    }
+
+    aside {
+        width: 80%;
+        margin: 0 10%;
+        padding-top: 70%;
+    }
+
+    .comment,
+    .comment-form {
+        margin-right: 0;
+
+        h4 {
+            margin-top: 10%;
+        }
+        
+    }
+
+} // end of 1065px
+
+
+@media (max-width: 750px) {
+    .comment-form {
+        .name-email {
+            flex-direction: column;
+            input[type=email],
+            input[type=text] {
+                margin-top: 3%;
+                width: 100%;
+            }
+        }
+    }
+} // end of 750px
+
+
+@media (max-width: 600px) {
+    .blog-right {
+        padding-bottom: 20%;
+
+        .blog-content-wrapper {
+            padding-top: 50%;
+        }  
+
+        .blog-image-container {
+            width: calc(100% - 20px);
+            position: absolute;
+            top: -120px;
+            right: 0;
+            box-shadow: -20px 20px $primary-accent;
+        }
+    }
+
+    .comment {
+        h4{
+            margin-top: 20%;
+        }
+    }
+
+    .comment-item {
+        flex-direction: column;
+        padding-bottom: 15%;
+
+        .comment-image-container {
+            width: 20%;
+            margin-bottom: 5%;
+        }
+
+        .comment-blurb {
+            width: 100%;
+        }
+    }
+
+    aside {
+        width: 100%;
+        margin: 0;
+        padding-top: 75%;
+    }
+
+    .blog-left {
+        
+        .aside-image-container {
+            width: 100%;
+            top: -20px;
+            // left: calc(10% + 10px);
+            left: 20px;
+        } 
+    }
+} // end of 600px

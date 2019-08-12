@@ -1,0 +1,14 @@
+@media (max-width: 750px) {
+    .hamburger {
+        display: block;
+        text-align: right;
+        color: $primary-text;
+        font-size: 5rem;
+        padding: 25px 35px;
+        margin: 0;
+    }
+
+    nav li:not(:first-of-type) {
+        display: none;
+    }
+}
