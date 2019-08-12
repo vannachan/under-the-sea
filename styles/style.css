@@ -334,6 +334,17 @@ textarea {
   color: #fff;
 }
 
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  opacity: 1;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
 h3,
 h4,
 nav a,
@@ -417,6 +428,17 @@ input[type=text],
 input[type=email],
 textarea {
   color: #fff;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  opacity: 1;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
 }
 
 h3,
