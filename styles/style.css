@@ -487,6 +487,20 @@ nav ul li:focus a {
   display: none;
 }
 
+.skip-link {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  padding: 5px 15px;
+  background: white;
+  color: black;
+}
+
+.skip-link:focus {
+  left: 15px;
+}
+
 .main-header {
   height: 95vh;
   max-height: 1000px;
