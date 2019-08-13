@@ -310,6 +310,7 @@ h3 {
 
 h4 {
   font-size: 3.2rem;
+  line-height: 4.2rem;
 }
 
 nav a,
@@ -406,6 +407,7 @@ h3 {
 
 h4 {
   font-size: 3.2rem;
+  line-height: 4.2rem;
 }
 
 nav a,
@@ -1183,6 +1185,16 @@ footer p {
   .nemo .wrapper {
     padding-bottom: 6%;
   }
+  .profile .profile-left {
+    width: 35%;
+  }
+  .profile img {
+    -webkit-box-shadow: 25px 25px #86e0f9;
+            box-shadow: 25px 25px #86e0f9;
+  }
+  .profile .profile-right {
+    width: 55%;
+  }
 }
 
 @media (max-width: 1050px) {
@@ -1265,11 +1277,34 @@ footer p {
   .info li {
     width: 100%;
   }
+  .profile .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .profile .profile-left {
+    width: 50%;
+  }
+  .profile img {
+    -webkit-box-shadow: 40px 40px #86e0f9;
+            box-shadow: 40px 40px #86e0f9;
+  }
+  .profile .profile-right {
+    width: 100%;
+    padding-top: 15%;
+  }
 }
 
 @media (max-width: 600px) {
   .additions h4,
   .nemo h4 {
+    padding-top: 20%;
+  }
+  .profile .profile-left {
+    width: 70%;
+  }
+  .profile .profile-right {
     padding-top: 20%;
   }
 }
@@ -1294,6 +1329,17 @@ footer p {
     -webkit-box-shadow: 12px 12px #86e0f9;
             box-shadow: 12px 12px #86e0f9;
   }
+  .profile .profile-left {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .profile img {
+    -webkit-box-shadow: 20px 20px #86e0f9;
+            box-shadow: 20px 20px #86e0f9;
+  }
+  .profile .profile-right {
+    padding-top: 20%;
+  }
 }
 
 @media (max-width: 374px) {
@@ -1308,7 +1354,7 @@ footer p {
   }
   .main-home h4 {
     font-size: 2.8rem;
-    line-height: 2.2rem;
+    line-height: 3.8rem;
   }
 }
 

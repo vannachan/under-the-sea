@@ -23,6 +23,20 @@
             padding-bottom: 6%;
         }
     }
+
+    .profile {
+        .profile-left {
+            width: 35%;
+        }
+
+        img {
+            box-shadow: 25px 25px $primary-accent;
+        }
+
+        .profile-right {
+            width: 55%;
+        }
+    }
 }
 
 @media (max-width: 1050px) {
@@ -94,6 +108,26 @@
             width: 100%;
         }
     }
+
+    .profile {
+
+        .wrapper {
+            flex-direction: column;
+        }
+
+        .profile-left {
+            width: 50%;
+        }
+
+        img {
+            box-shadow: 40px 40px $primary-accent;
+        }
+
+        .profile-right {
+            width: 100%;
+            padding-top: 15%;
+        }
+    }
 }
 
 @media (max-width: 600px) {
@@ -103,7 +137,18 @@
             padding-top: 20%;
         }
     }
+
+    .profile {
+        .profile-left {
+            width: 70%;
+        }
+
+        .profile-right {
+            padding-top: 20%;
+        }
+    }
 }
+
 
 @media (max-width: 550px) {
     .under-sea {
@@ -112,6 +157,7 @@
         }
     }
 }
+
 
 @media (max-width: 450px) {
 
@@ -126,8 +172,22 @@
         .additions-left,
         .nemo-right {
             width: 85%;
-
             box-shadow: 12px 12px $primary-accent;
+        }
+    }
+
+    .profile {
+        .profile-left {
+            width: 85%;
+            margin: 0 auto;
+        }
+
+        img {
+            box-shadow: 20px 20px $primary-accent;
+        }
+
+        .profile-right {
+            padding-top: 20%;
         }
     }
 }
@@ -147,7 +207,7 @@
         }
         h4 {
             font-size: 2.8rem;
-            line-height: 2.2rem;
+            line-height: 3.8rem;
         }
     }
 }
