@@ -4,7 +4,8 @@
             bottom: -75px;
         }
     }
-}
+} // end of 1250px
+
 
 @media (max-width: 770px) {
 
@@ -25,7 +26,8 @@
             top: 65%;
         }
     }
-}
+} // end of 770px
+
 
 @media (max-width: 750px) {
     .hamburger {
@@ -47,7 +49,8 @@
             top: 70%;
         }
     }
-}
+} // end of 750px
+
 
 @media (max-width: 600px) {
     .main-header {
@@ -63,18 +66,20 @@
             top: 70%;
         }
     }
-}
+} // end of 600px
+
 
 @media (max-width: 420px) {
     h1 {
         font-size: 8.8rem;
         line-height: 7.8rem;
     }
-}
+} // end of 420px
+
 
 @media (max-width: 350px) {
     h1 {
         font-size: 7.8rem;
         line-height: 6.8rem;
     }
-}
+} // end of 350px
