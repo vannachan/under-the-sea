@@ -147,6 +147,16 @@
             padding-top: 20%;
         }
     }
+
+    .gallery {
+        li:last-of-type {
+            display: none;
+        }
+
+        li {
+            width: 48%;
+        }
+    }
 }
 
 
@@ -190,6 +200,20 @@
             padding-top: 20%;
         }
     }
+
+    .gallery {
+        li:last-of-type {
+            display: block;
+        }
+
+        ul {
+            flex-direction: column;
+        }
+        li {
+            width: 80%;
+            margin: 5% auto;
+        }
+    }
 }
 
 @media (max-width: 374px) {
@@ -205,6 +229,7 @@
             font-size: 1.8rem;
             line-height: 3.0rem;
         }
+        
         h4 {
             font-size: 2.8rem;
             line-height: 3.8rem;
