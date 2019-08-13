@@ -1,0 +1,153 @@
+@media (max-width: 1300px) {
+    .nemo {
+        .nemo-right {
+            bottom: 0px;
+        }
+    }
+}
+
+
+@media (max-width: 1150px) {
+    .additions {
+        .additions-left {
+            top: 40px;
+        }
+    }
+
+    .nemo {
+        .nemo-right {
+            top: 10%;
+        }
+
+        .wrapper {
+            padding-bottom: 6%;
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .info {
+        ul {
+            flex-wrap: no-wrap;
+            flex-direction: column;
+            align-content: space-around;
+        }
+
+        li {
+            width: 80%;
+        }
+    }
+}
+
+
+@media (max-width: 770px) {
+
+    .under-sea {
+        display: flex;
+        flex-direction: column-reverse;
+        flex: 1 0 80%;
+        h3 {
+            font-size: 3.6rem;
+            line-height: 4.6rem;
+            padding-top: 85%;
+        }
+    }
+
+    .tiny-wrapper {
+        padding-bottom: 20%;
+    }
+
+    .additions {
+        display: flex;
+        flex-direction : column;
+        padding: 5% 0;
+        
+        .additions-left {
+            position: static;
+            width: 85%;
+            margin-top: 5%;
+            margin: 0 auto;
+            box-shadow: 20px 20px $primary-accent;
+        }
+    }
+
+    .additions-right,
+    .nemo-left {
+        width: 100%;
+    }
+
+    .nemo {
+        display: flex;
+        flex-direction : column-reverse;
+        padding: 5% 0;
+        .nemo-right {
+            position: static;
+            width: 85%;
+            margin-top: 5%;
+            margin: 0 auto;
+            box-shadow: -20px 20px $primary-accent;
+        }
+    }
+
+    .info {
+        li {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .additions,
+    .nemo {
+        h4 {
+            padding-top: 20%;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .under-sea {
+        h3 {
+            padding-top: 65%;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+
+    h3 + p,
+    h4 + p {
+        margin-top: 8%;
+        margin-bottom: 11%;
+    }
+
+    .additions,
+    .nemo {
+        .additions-left,
+        .nemo-right {
+            width: 85%;
+
+            box-shadow: 12px 12px $primary-accent;
+        }
+    }
+}
+
+@media (max-width: 374px) {
+    .main-home {
+
+        h3 {
+            font-size: 3.2rem;
+            line-height: 4.2rem;
+            padding-top: 50%;
+        }
+
+        p {
+            font-size: 1.8rem;
+            line-height: 3.0rem;
+        }
+        h4 {
+            font-size: 2.8rem;
+            line-height: 2.2rem;
+        }
+    }
+}
